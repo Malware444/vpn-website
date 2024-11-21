@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VPN Server Plan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>VPN Server Store</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Product Info -->
+  <section class="product-details">
+    <h2>Advanced VPN Plan</h2>
+    <p>Access to premium locations with faster speeds. Secure your online activity with robust encryption.</p>
+    <p><strong>$12/month</strong></p>
+    <button id="add-to-cart">Add to Cart</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 VPN Server Store | All Rights Reserved</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

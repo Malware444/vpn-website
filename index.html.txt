@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VPN Server Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>VPN Server Store</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Protect Your Privacy with Our Fast and Secure VPN Servers</h2>
+    <p>Choose from a variety of plans and start browsing securely today!</p>
+    <a href="product-page.html" class="btn">Explore VPN Plans</a>
+  </section>
+
+  <!-- Featured Plans -->
+  <section class="plans">
+    <h2>Our VPN Server Plans</h2>
+    <div class="plan">
+      <h3>Basic VPN Plan</h3>
+      <p>Secure browsing with limited server locations.</p>
+      <p>$5/month</p>
+      <a href="product-page.html?plan=basic" class="btn">Buy Now</a>
+    </div>
+    <div class="plan">
+      <h3>Advanced VPN Plan</h3>
+      <p>Access to premium locations with faster speeds.</p>
+      <p>$12/month</p>
+      <a href="product-page.html?plan=advanced" class="btn">Buy Now</a>
+    </div>
+    <div class="plan">
+      <h3>Pro VPN Plan</h3>
+      <p>Unlimited bandwidth, access to all server locations.</p>
+      <p>$20/month</p>
+      <a href="product-page.html?plan=pro" class="btn">Buy Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 VPN Server Store | All Rights Reserved</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

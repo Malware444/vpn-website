@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>VPN Server Store</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Cart -->
+  <section class="cart">
+    <h2>Your Shopping Cart</h2>
+    <div class="cart-item">
+      <p>Advanced VPN Plan</p>
+      <p>$12/month</p>
+    </div>
+    <div class="cart-item">
+      <p>Pro VPN Plan</p>
+      <p>$20/month</p>
+    </div>
+
+    <h3>Total: $32/month</h3>
+    <a href="checkout.html" class="btn">Proceed to Checkout</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 VPN Server Store | All Rights Reserved</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

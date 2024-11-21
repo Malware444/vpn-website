@@ -1,0 +1,12 @@
+// Placeholder for shopping cart functionality
+const cart = [];
+
+// Add to cart function
+document.getElementById('add-to-cart')?.addEventListener('click', function() {
+  const product = {
+    name: 'Advanced VPN Plan',
+    price: 12
+  };
+  cart.push(product);
+  alert('Added to Cart');
+});
